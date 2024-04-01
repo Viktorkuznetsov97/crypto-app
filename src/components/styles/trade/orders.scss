@@ -1,0 +1,34 @@
+.orders-table {
+  width: 100%;
+  color: #fefefe;
+  border-spacing: 0px;
+
+  tr td,
+  thead th {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .buy {
+    color: green;
+    svg {
+      path {
+        stroke: green;
+      }
+    }
+  }
+
+  .sell {
+    color: red;
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
